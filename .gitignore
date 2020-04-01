@@ -74,10 +74,10 @@ target/
 venv
 
 # Hidden files
-images/*.aux
-images/*.synctex.gz
-images/*.log
-images/*.tex
+docs/*.aux
+docs/*.synctex.gz
+docs/*.log
+docs/*.tex
 requirements.txt
 ne_world_data/*
 ne_epidemic/*
