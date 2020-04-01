@@ -74,7 +74,7 @@ target/
 venv
 
 # Hidden files
-images/
+#images/
 requirements.txt
 ne_world_data/*
 ne_epidemic/*
