@@ -1,5 +1,5 @@
 # COVID-19 Models
-![](./images/inscientia.jpg)
+![](./images/inscientia.png)
 
 In this repository we (The Neuroelectrics and Starlab modeling teams) provide data analysis and projections of infection rates and fatalities using a compartment model. 
 
