@@ -12,12 +12,12 @@ Keep in mind that we are in a hurry (doubling time about 3 days), so please cons
 
 ## Modeling notes
 For general notes on how the model is run and optimized see the docs folder.
-### latency
+### Latency
 The SIR model does not currently account for latency between exposure to symptoms/infectiousness. This is a factor to keep in mind.
 
-Also, if we model fatalities as a proxy for current infections (simple approach), we are modeling historic data. What we see today is due to infections that happened up to 13 days ago ([median time delay of 13 days from illness onset to death](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7074197/) ago. In other words, we are modeling the past. 
+Given the lack of good data on actual infection rates, we use fatality data as a proxy for current infections (simple approach). Because of this, what we observe today (falalities) is due to infections that happened up to 1-2 weeks days ago ([median time delay of 13 days from illness onset to death](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7074197/) ago. In other words, we are modeling and data fitting the past. 
 
-When we add an intervention into the model, it needs to be delayed to adjust for this.
+When we add an intervention into the model (a social distance measure), its effects need to be seen as delayed to adjust for this.
 
 ## Links and data sources
 * [http://neuroelectrics.com](http://neuroelectrics.com)
@@ -28,4 +28,8 @@ When we add an intervention into the model, it needs to be delayed to adjust for
 
 * [JHU data repository](https://github.com/CSSEGISandData/COVID-19)
 
+## Who are we?
+We are a group of researchers concerned with the current covid-19 crisis. Our normal work revolves around the use of mathematical models to study the human brain (biophysics and computatinal neuroscience), and to data analysis. Our aim is to provide a digest of data and forecasts based on useful, albeit simple, models for short and medium term prediction. 
+
+For more information please contact giulio.ruffini at neuroelectrics.com
 
