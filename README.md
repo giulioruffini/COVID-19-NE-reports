@@ -1,13 +1,13 @@
 # COVID-19 Models
 ![](./images/inscientia.png)
 
-In this repository we (The Neuroelectrics and Starlab modeling teams) provide data analysis and projections of infection rates and fatalities using a compartment model. 
+In this repository the Neuroelectrics and Starlab modeling teams provide data analysis and projections of infection rates and fatalities using a compartment model. 
 
 The goal is to peer into the future, at least a couple of weeks ahead, and to be able to do "what if" studies. What if the R0 is changed in such and such way?
 
-We will update the model with real data as it comes while the COVID-19 crisis unfolds. We use SIR (and SEIR) to fit data on "detected infections", " "ICU entries" and "fatalities".  SIR has a list of parameters we can use (nu, beta, R0 = beta/nu, CFR etc).
+We update the model with real data as it comes while the COVID-19 crisis unfolds. We use SIR (and SEIR) to fit data on "detected infections", " "ICU entries" and "fatalities".  SIR has a list of parameters we can use (nu, beta, R0 = beta/nu, CFR etc).
 
-Keep in mind that we are in a hurry (doubling time about 3 days), so please consider that perfection may be the enemy of usefulness.
+Keep in mind that we are in a hurry (doubling time about 3 days when we started), so please consider that perfection may be the enemy of usefulness.
 
 
 ## Modeling notes
@@ -30,6 +30,8 @@ When we add an intervention into the model (a social distance measure), its effe
 
 ## Who are we?
 We are a group of researchers concerned with the current covid-19 crisis. Our normal work revolves around the use of mathematical models to study the human brain (biophysics and computatinal neuroscience), and to data analysis. Our aim is to provide a digest of data and forecasts based on useful, albeit simple, models for short and medium term prediction. 
+
+The Neuroelectrics research team is not specialized in epidemiology, and our modeling efforts here must be considered with healthy skepticism. We believe, however, that Covid-19 is going to stay with us for quite some time, and that any help we can provide will be useful in the end. There is no more urgent problem to work on at the moment.
 
 For more information please contact giulio.ruffini at neuroelectrics.com
 
