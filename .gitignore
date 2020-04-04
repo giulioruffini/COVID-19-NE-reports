@@ -90,3 +90,4 @@ ne_visualization/*
 04_SIR_Class_Spain_Live_Model.ipynb
 05_SIR_Italy_live_model.ipynb
 06_SIR_Class_Spain_Live_Model_OPT.ipynb
+daily_update.sh
