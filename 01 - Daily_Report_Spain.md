@@ -124,5 +124,5 @@ sir_prediction_from_country('Spain')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-04 14:00:30.313283
+    Run finished 2020-04-04 15:28:08.038011
 
