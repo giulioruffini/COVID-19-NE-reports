@@ -74,6 +74,7 @@ target/
 venv
 
 # Hidden files
+./*.ipynb
 docs/*.aux
 docs/*.synctex.gz
 docs/*.log
