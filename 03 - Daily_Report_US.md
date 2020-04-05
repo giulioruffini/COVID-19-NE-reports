@@ -36,8 +36,8 @@ sir_prediction_from_country('US')
 ![png](03%20-%20Daily_Report_US_files/03%20-%20Daily_Report_US_1_2.png)
 
 
-    - Last day with data: 4/3/20
-    - US fatalities to date: 7087
+    - Last day with data: 4/4/20
+    - US fatalities to date: 8407
      
     
     Model Initial parameters:
@@ -49,19 +49,19 @@ sir_prediction_from_country('US')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 872775
+    Initial loss: 939225
     Optimization terminated successfully.
-             Current function value: 428.506512
-             Iterations: 154
-             Function evaluations: 294
+             Current function value: 428.572413
+             Iterations: 161
+             Function evaluations: 303
     Estimated parameters:
-    N0: 196
+    N0: 197
     beta0 (contacts per day): 0.56
     R0: 2.79
     
     Final loss: 428
     Initial/Final % loss: 0.05
-    Normalized Loss (per million persons, per day) 0.04 
+    Normalized Loss (per million persons, per day) 0.039 
     
     
     _____________________________________________________________________
@@ -71,7 +71,7 @@ sir_prediction_from_country('US')
     Model name: optimized 2 pars
     
     Simulated days: 63.0
-    Initially infected/Total population (N0/N): 196/327200000 (0.1 per 100,000)
+    Initially infected/Total population (N0/N): 197/327200000 (0.1 per 100,000)
     beta (per day): 0.6 , nu (per day): 0.2
     1/beta (days): 1.8 , 1/nu (days): 5.0
     IFR: 0.002
@@ -86,17 +86,17 @@ sir_prediction_from_country('US')
     _____________________________________________________________________
     
     MODEL'S OUTPUTS FOR TODAY: 2020-04-04
-       Infected: 3775111 (1.2%)
-       Recovered: 4209267 (1.3%)
-       Exposed to date: 7984378 (2.4%)
-       In ICU: 9437
-       Fatalities: 8418
+       Infected: 3768383 (1.2%)
+       Recovered: 4205948 (1.3%)
+       Exposed to date: 7974331 (2.4%)
+       In ICU: 9420
+       Fatalities: 8411
      
     MEDIUM TERM FORECAST (63 days from model start date): 
        Percent of population exposed at end simulation: 41%
-       Peak ICU admissions:  67832  on day 2020-04-21
+       Peak ICU admissions:  67617  on day 2020-04-21
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 233966
+       Total fatalities at end of simulation: 233341
 
 
 
@@ -122,5 +122,5 @@ sir_prediction_from_country('US')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-04 18:11:46.821457
+    Run finished 2020-04-04 22:00:14.966230
 
