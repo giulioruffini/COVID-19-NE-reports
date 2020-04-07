@@ -35,8 +35,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_3_2.png)
 
 
-    - Last day with data: 4/5/20
-    - Spain fatalities to date: 12641
+    - Last day with data: 4/6/20
+    - Spain fatalities to date: 13341
      
 
 
@@ -70,8 +70,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_5_2.png)
 
 
-    - Last day with data: 4/5/20
-    - Italy fatalities to date: 15887
+    - Last day with data: 4/6/20
+    - Italy fatalities to date: 16523
      
 
 
@@ -105,8 +105,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_7_2.png)
 
 
-    - Last day with data: 4/5/20
-    - Portugal fatalities to date: 295
+    - Last day with data: 4/6/20
+    - Portugal fatalities to date: 311
      
 
 
@@ -140,8 +140,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_9_2.png)
 
 
-    - Last day with data: 4/5/20
-    - France fatalities to date: 8078
+    - Last day with data: 4/6/20
+    - France fatalities to date: 8911
      
 
 
@@ -175,8 +175,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_11_2.png)
 
 
-    - Last day with data: 4/5/20
-    - US fatalities to date: 9619
+    - Last day with data: 4/6/20
+    - US fatalities to date: 10783
      
 
 
