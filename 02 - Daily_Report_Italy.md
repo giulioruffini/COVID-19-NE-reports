@@ -20,12 +20,12 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('Italy')
 ```
 
-    Today's date: 2020-04-06 
+    Today's date: 2020-04-07 
     
     Country:  Italy
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  2 / 24 / 2020
-    - Days since first fatalities:  42
+    - Days since first fatalities:  43
 
 
 
@@ -70,7 +70,7 @@ sir_prediction_from_country('Italy')
     
     Model name: optimized 2 pars
     
-    Simulated days: 63.0
+    Simulated days: 64.0
     Initially infected/Total population (N0/N): 26622/60480000 (44.0 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.6 , 1/nu (days): 5.0
@@ -85,18 +85,18 @@ sir_prediction_from_country('Italy')
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-04-06
-       Infected: 2415496 (4.0%)
-       Recovered: 10186892 (16.8%)
-       Exposed to date: 12602388 (20.8%)
-       In ICU: 3019
-       Fatalities: 16978
+    MODEL'S OUTPUTS FOR TODAY: 2020-04-07
+       Infected: 2405945 (4.0%)
+       Recovered: 10669114 (17.6%)
+       Exposed to date: 13075059 (21.6%)
+       In ICU: 3007
+       Fatalities: 17781
      
-    MEDIUM TERM FORECAST (63 days from model start date): 
-       Percent of population exposed at end simulation: 33%
+    MEDIUM TERM FORECAST (64 days from model start date): 
+       Percent of population exposed at end simulation: 34%
        Peak ICU admissions:  3026  on day 2020-04-04
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 31464
+       Total fatalities at end of simulation: 31976
 
 
 
@@ -122,7 +122,7 @@ sir_prediction_from_country('Italy')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-06 21:59:53.191322
+    Run finished 2020-04-07 06:53:51.674822
 
 
 
