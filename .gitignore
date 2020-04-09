@@ -66,6 +66,8 @@ target/
 
 # Jupyter notebook
 .ipynb_checkpoints
+.ipynb
+
 
 #Figures
 **/Figures
@@ -91,3 +93,4 @@ ne_visualization/*
 05_SIR_Italy_live_model.ipynb
 06_SIR_Class_Spain_Live_Model_OPT.ipynb
 daily_update.sh
+*.ipynb
