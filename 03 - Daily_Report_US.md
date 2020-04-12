@@ -18,14 +18,14 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('US')
 ```
 
-    Today's date: 2020-04-11 
+    Today's date: 2020-04-12 
     
     Country:  US
     - UCI database:  https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19
     - Total UCI beds:  96596
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 2 / 2020
-    - Days since first fatalities:  40
+    - Days since first fatalities:  41
 
 
 
@@ -70,7 +70,7 @@ sir_prediction_from_country('US')
     
     Model name: optimized 2 pars
     
-    Simulated days: 70.0
+    Simulated days: 71.0
     Initially infected/Total population (N0/N): 761/327200000 (0.2 per 100,000)
     beta (per day): 0.5 , nu (per day): 0.2
     1/beta (days): 2.0 , 1/nu (days): 5.0
@@ -85,18 +85,18 @@ sir_prediction_from_country('US')
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-04-11
-       Infected: 6868964 (2.1%)
-       Recovered: 10593843 (3.2%)
-       Exposed to date: 17462807 (5.3%)
-       In ICU: 17172
-       Fatalities: 21187
+    MODEL'S OUTPUTS FOR TODAY: 2020-04-12
+       Infected: 7673485 (2.3%)
+       Recovered: 12046878 (3.7%)
+       Exposed to date: 19720363 (6.0%)
+       In ICU: 19183
+       Fatalities: 24093
      
-    MEDIUM TERM FORECAST (70 days from model start date): 
+    MEDIUM TERM FORECAST (71 days from model start date): 
        Percent of population exposed at end simulation: 31%
        Peak ICU admissions:  39150  on day 2020-04-23
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 181489
+       Total fatalities at end of simulation: 185935
 
 
 
@@ -122,5 +122,5 @@ sir_prediction_from_country('US')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-11 22:00:05.461915
+    Run finished 2020-04-12 10:32:03.938139
 
