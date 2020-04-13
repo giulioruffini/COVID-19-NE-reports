@@ -38,8 +38,8 @@ sir_prediction_from_country('Spain')
 ![png](01%20-%20Daily_Report_Spain_files/01%20-%20Daily_Report_Spain_2_2.png)
 
 
-    - Last day with data: 4/11/20
-    - Spain fatalities to date: 16606
+    - Last day with data: 4/12/20
+    - Spain fatalities to date: 17209
      
     
     Model Initial parameters:
@@ -52,19 +52,19 @@ sir_prediction_from_country('Spain')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 45850
+    Initial loss: 48254
     Optimization terminated successfully.
-             Current function value: 461.253860
-             Iterations: 76
-             Function evaluations: 147
+             Current function value: 463.848637
+             Iterations: 75
+             Function evaluations: 145
     Estimated parameters:
-    N0: 32402
+    N0: 32550
     beta0 (contacts per day): 0.43
-    R0: 2.17
+    R0: 2.16
     
-    Final loss: 461
-    Initial/Final % loss: 1.01
-    Normalized Loss (per million persons, per day) 0.275 
+    Final loss: 463
+    Initial/Final % loss: 0.96
+    Normalized Loss (per million persons, per day) 0.269 
     
     
     _____________________________________________________________________
@@ -74,7 +74,7 @@ sir_prediction_from_country('Spain')
     Model name: optimized 2 pars
     
     Simulated days: 96.0
-    Initially infected/Total population (N0/N): 32402/46660000 (69.4 per 100,000)
+    Initially infected/Total population (N0/N): 32550/46660000 (69.8 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.3 , 1/nu (days): 5.0
     IFR: 0.002
@@ -90,17 +90,17 @@ sir_prediction_from_country('Spain')
     _____________________________________________________________________
     
     MODEL'S OUTPUTS FOR TODAY: 2020-04-12
-       Infected: 1464182 (3.1%)
-       Recovered: 8632008 (18.5%)
-       Exposed to date: 10096190 (21.6%)
-       In ICU: 4099
-       Fatalities: 17264
+       Infected: 1461543 (3.1%)
+       Recovered: 8626316 (18.5%)
+       Exposed to date: 10087859 (21.6%)
+       In ICU: 4092
+       Fatalities: 17252
      
     MEDIUM TERM FORECAST (96 days from model start date): 
-       Percent of population exposed at end simulation: 25%
-       Peak ICU admissions:  6408  on day 2020-03-26
+       Percent of population exposed at end simulation: 24%
+       Peak ICU admissions:  6406  on day 2020-03-26
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 23280
+       Total fatalities at end of simulation: 23255
 
 
 
@@ -126,5 +126,5 @@ sir_prediction_from_country('Spain')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-12 10:31:21.553313
+    Run finished 2020-04-12 21:59:29.459126
 
