@@ -20,14 +20,14 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('Spain')
 ```
 
-    Today's date: 2020-04-12 
+    Today's date: 2020-04-14 
     
     Country:  Spain
     - UCI database:  https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_camas_uci_2017.csv
     - Total UCI beds:  4404
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 7 / 2020
-    - Days since first fatalities:  36
+    - Days since first fatalities:  38
 
 
 
@@ -38,8 +38,8 @@ sir_prediction_from_country('Spain')
 ![png](01%20-%20Daily_Report_Spain_files/01%20-%20Daily_Report_Spain_2_2.png)
 
 
-    - Last day with data: 4/12/20
-    - Spain fatalities to date: 17209
+    - Last day with data: 4/13/20
+    - Spain fatalities to date: 17756
      
     
     Model Initial parameters:
@@ -52,19 +52,19 @@ sir_prediction_from_country('Spain')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 48254
+    Initial loss: 50614
     Optimization terminated successfully.
-             Current function value: 463.848637
-             Iterations: 75
-             Function evaluations: 145
+             Current function value: 465.663573
+             Iterations: 76
+             Function evaluations: 149
     Estimated parameters:
-    N0: 32550
+    N0: 32665
     beta0 (contacts per day): 0.43
     R0: 2.16
     
-    Final loss: 463
-    Initial/Final % loss: 0.96
-    Normalized Loss (per million persons, per day) 0.269 
+    Final loss: 465
+    Initial/Final % loss: 0.92
+    Normalized Loss (per million persons, per day) 0.263 
     
     
     _____________________________________________________________________
@@ -73,34 +73,34 @@ sir_prediction_from_country('Spain')
     
     Model name: optimized 2 pars
     
-    Simulated days: 96.0
-    Initially infected/Total population (N0/N): 32550/46660000 (69.8 per 100,000)
+    Simulated days: 98.0
+    Initially infected/Total population (N0/N): 32665/46660000 (70.0 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.3 , 1/nu (days): 5.0
     IFR: 0.002
     Initial Doubling time: 3.0  days, Initial R0: 2.2
     Interventions:
-      1/beta at day 7.0  = 4.8  days, R0 = 1.04
+      1/beta at day 7.0  = 4.8  days, R0 = 1.03
       1/beta at day 24.0  = 10.6  days, R0 = 0.47
-      1/beta at day 37.0  = 4.8  days, R0 = 1.04
+      1/beta at day 37.0  = 4.8  days, R0 = 1.03
     Latency for intervention effect on fatalities (days): 12
     Infected_to_Detected_ratio: 5
     
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-04-12
-       Infected: 1461543 (3.1%)
-       Recovered: 8626316 (18.5%)
-       Exposed to date: 10087859 (21.6%)
-       In ICU: 4092
-       Fatalities: 17252
+    MODEL'S OUTPUTS FOR TODAY: 2020-04-14
+       Infected: 1133389 (2.4%)
+       Recovered: 9138051 (19.6%)
+       Exposed to date: 10271440 (22.0%)
+       In ICU: 3173
+       Fatalities: 18276
      
-    MEDIUM TERM FORECAST (96 days from model start date): 
-       Percent of population exposed at end simulation: 24%
-       Peak ICU admissions:  6406  on day 2020-03-26
+    MEDIUM TERM FORECAST (98 days from model start date): 
+       Percent of population exposed at end simulation: 25%
+       Peak ICU admissions:  6404  on day 2020-03-26
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 23255
+       Total fatalities at end of simulation: 23264
 
 
 
@@ -126,5 +126,5 @@ sir_prediction_from_country('Spain')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-12 21:59:29.459126
+    Run finished 2020-04-14 12:16:10.436200
 
