@@ -20,12 +20,12 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('Italy')
 ```
 
-    Today's date: 2020-04-14 
+    Today's date: 2020-04-15 
     
     Country:  Italy
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  2 / 24 / 2020
-    - Days since first fatalities:  50
+    - Days since first fatalities:  51
 
 
 
@@ -71,7 +71,7 @@ sir_prediction_from_country('Italy')
     
     Model name: optimized 2 pars
     
-    Simulated days: 71.0
+    Simulated days: 72.0
     Initially infected/Total population (N0/N): 14015/60480000 (23.2 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.3 , 1/nu (days): 5.0
@@ -87,18 +87,18 @@ sir_prediction_from_country('Italy')
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-04-14
-       Infected: 1321471 (2.2%)
-       Recovered: 12536529 (20.7%)
-       Exposed to date: 13858000 (22.9%)
-       In ICU: 1651
-       Fatalities: 20894
+    MODEL'S OUTPUTS FOR TODAY: 2020-04-15
+       Infected: 1258109 (2.1%)
+       Recovered: 12794448 (21.2%)
+       Exposed to date: 14052557 (23.2%)
+       In ICU: 1572
+       Fatalities: 21324
      
-    MEDIUM TERM FORECAST (71 days from model start date): 
+    MEDIUM TERM FORECAST (72 days from model start date): 
        Percent of population exposed at end simulation: 27%
        Peak ICU admissions:  3229  on day 2020-03-29
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 26516
+       Total fatalities at end of simulation: 26655
 
 
 
@@ -124,7 +124,7 @@ sir_prediction_from_country('Italy')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-14 21:59:55.948999
+    Run finished 2020-04-15 00:07:14.445417
 
 
 
