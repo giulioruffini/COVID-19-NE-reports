@@ -38,8 +38,8 @@ sir_prediction_from_country('Spain')
 ![png](01%20-%20Daily_Report_Spain_files/01%20-%20Daily_Report_Spain_2_2.png)
 
 
-    - Last day with data: 4/18/20
-    - Spain fatalities to date: 20043
+    - Last day with data: 4/19/20
+    - Spain fatalities to date: 20453
      
     
     Model Initial parameters:
@@ -52,19 +52,19 @@ sir_prediction_from_country('Spain')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 81454
+    Initial loss: 84377
     Optimization terminated successfully.
-             Current function value: 905.813681
-             Iterations: 71
-             Function evaluations: 134
+             Current function value: 923.980376
+             Iterations: 62
+             Function evaluations: 122
     Estimated parameters:
-    N0: 53023
+    N0: 52596
     beta0 (contacts per day): 0.4
     R0: 1.99
     
-    Final loss: 905
-    Initial/Final % loss: 1.11
-    Normalized Loss (per million persons, per day) 0.451 
+    Final loss: 923
+    Initial/Final % loss: 1.1
+    Normalized Loss (per million persons, per day) 0.45 
     
     
     _____________________________________________________________________
@@ -74,15 +74,15 @@ sir_prediction_from_country('Spain')
     Model name: optimized 2 pars
     
     Simulated days: 103.0
-    Initially infected/Total population (N0/N): 53023/46660000 (113.6 per 100,000)
+    Initially infected/Total population (N0/N): 52596/46660000 (112.7 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.5 , 1/nu (days): 5.0
     IFR: 0.002
     Initial Doubling time: 3.5  days, Initial R0: 2.0
     Interventions:
       1/beta at day 7.0  = 4.8  days, R0 = 1.04
-      1/beta at day 24.0  = 11.6  days, R0 = 0.43
-      1/beta at day 37.0  = 5.3  days, R0 = 0.95
+      1/beta at day 24.0  = 11.5  days, R0 = 0.43
+      1/beta at day 37.0  = 5.2  days, R0 = 0.95
     Latency for intervention effect on fatalities (days): 13
     Infected_to_Detected_ratio: 5
     
@@ -90,17 +90,17 @@ sir_prediction_from_country('Spain')
     _____________________________________________________________________
     
     MODEL'S OUTPUTS FOR TODAY: 2020-04-19
-       Infected: 645773 (1.4%)
-       Recovered: 10128575 (21.7%)
-       Exposed to date: 10774348 (23.1%)
-       In ICU: 1808
-       Fatalities: 20257
+       Infected: 648072 (1.4%)
+       Recovered: 10141639 (21.7%)
+       Exposed to date: 10789711 (23.1%)
+       In ICU: 1814
+       Fatalities: 20283
      
     MEDIUM TERM FORECAST (103 days from model start date): 
        Percent of population exposed at end simulation: 24%
-       Peak ICU admissions:  6383  on day 2020-03-27
+       Peak ICU admissions:  6387  on day 2020-03-27
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 23162
+       Total fatalities at end of simulation: 23201
 
 
 
@@ -126,5 +126,5 @@ sir_prediction_from_country('Spain')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-19 12:12:30.987577
+    Run finished 2020-04-19 21:59:40.214710
 
