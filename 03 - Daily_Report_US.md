@@ -49,19 +49,19 @@ sir_prediction_from_country('US')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 1891795
+    Initial loss: 1891772
     Optimization terminated successfully.
-             Current function value: 6773.196811
+             Current function value: 6785.553535
              Iterations: 118
-             Function evaluations: 226
+             Function evaluations: 224
     Estimated parameters:
-    N0: 3647
+    N0: 3653
     beta0 (contacts per day): 0.45
     R0: 2.24
     
-    Final loss: 6773
+    Final loss: 6785
     Initial/Final % loss: 0.36
-    Normalized Loss (per million persons, per day) 0.406 
+    Normalized Loss (per million persons, per day) 0.407 
     
     
     _____________________________________________________________________
@@ -71,7 +71,7 @@ sir_prediction_from_country('US')
     Model name: optimized 2 pars
     
     Simulated days: 81.0
-    Initially infected/Total population (N0/N): 3647/327200000 (1.1 per 100,000)
+    Initially infected/Total population (N0/N): 3653/327200000 (1.1 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.2 , 1/nu (days): 5.0
     IFR: 0.002
@@ -86,17 +86,17 @@ sir_prediction_from_country('US')
     _____________________________________________________________________
     
     MODEL'S OUTPUTS FOR TODAY: 2020-04-22
-       Infected: 8575840 (2.6%)
-       Recovered: 25493210 (7.8%)
-       Exposed to date: 34069050 (10.4%)
-       In ICU: 21439
-       Fatalities: 50986
+       Infected: 8574140 (2.6%)
+       Recovered: 25494944 (7.8%)
+       Exposed to date: 34069084 (10.4%)
+       In ICU: 21435
+       Fatalities: 50989
      
     MEDIUM TERM FORECAST (81 days from model start date): 
        Percent of population exposed at end simulation: 21%
-       Peak ICU admissions:  21835  on day 2020-04-19
+       Peak ICU admissions:  21832  on day 2020-04-19
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 131796
+       Total fatalities at end of simulation: 131768
 
 
 
@@ -122,5 +122,5 @@ sir_prediction_from_country('US')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-22 08:14:35.187911
+    Run finished 2020-04-22 16:03:31.521100
 
