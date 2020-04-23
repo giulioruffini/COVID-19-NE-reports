@@ -36,8 +36,8 @@ sir_prediction_from_country('US')
 ![png](03%20-%20Daily_Report_US_files/03%20-%20Daily_Report_US_1_2.png)
 
 
-    - Last day with data: 4/21/20
-    - US fatalities to date: 44845
+    - Last day with data: 4/22/20
+    - US fatalities to date: 46583
      
     
     Model Initial parameters:
@@ -49,19 +49,19 @@ sir_prediction_from_country('US')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 1891772
+    Initial loss: 1936274
     Optimization terminated successfully.
-             Current function value: 6785.553535
-             Iterations: 118
-             Function evaluations: 224
+             Current function value: 7830.681480
+             Iterations: 117
+             Function evaluations: 223
     Estimated parameters:
-    N0: 3653
-    beta0 (contacts per day): 0.45
-    R0: 2.24
+    N0: 4316
+    beta0 (contacts per day): 0.44
+    R0: 2.21
     
-    Final loss: 6785
-    Initial/Final % loss: 0.36
-    Normalized Loss (per million persons, per day) 0.407 
+    Final loss: 7830
+    Initial/Final % loss: 0.4
+    Normalized Loss (per million persons, per day) 0.46 
     
     
     _____________________________________________________________________
@@ -71,14 +71,14 @@ sir_prediction_from_country('US')
     Model name: optimized 2 pars
     
     Simulated days: 81.0
-    Initially infected/Total population (N0/N): 3653/327200000 (1.1 per 100,000)
+    Initially infected/Total population (N0/N): 4316/327200000 (1.3 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
-    1/beta (days): 2.2 , 1/nu (days): 5.0
+    1/beta (days): 2.3 , 1/nu (days): 5.0
     IFR: 0.002
-    Initial Doubling time: 2.8  days, Initial R0: 2.2
+    Initial Doubling time: 2.9  days, Initial R0: 2.2
     Interventions:
-      1/beta at day 12.0  = 3.4  days, R0 = 1.46
-      1/beta at day 37.0  = 4.7  days, R0 = 1.07
+      1/beta at day 12.0  = 3.5  days, R0 = 1.44
+      1/beta at day 37.0  = 4.7  days, R0 = 1.06
     Latency for intervention effect on fatalities (days): 11
     Infected_to_Detected_ratio: 5
     
@@ -86,17 +86,17 @@ sir_prediction_from_country('US')
     _____________________________________________________________________
     
     MODEL'S OUTPUTS FOR TODAY: 2020-04-22
-       Infected: 8574140 (2.6%)
-       Recovered: 25494944 (7.8%)
-       Exposed to date: 34069084 (10.4%)
-       In ICU: 21435
-       Fatalities: 50989
+       Infected: 8098191 (2.5%)
+       Recovered: 24816691 (7.6%)
+       Exposed to date: 32914882 (10.1%)
+       In ICU: 20245
+       Fatalities: 49633
      
     MEDIUM TERM FORECAST (81 days from model start date): 
-       Percent of population exposed at end simulation: 21%
-       Peak ICU admissions:  21832  on day 2020-04-19
+       Percent of population exposed at end simulation: 20%
+       Peak ICU admissions:  20732  on day 2020-04-19
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 131768
+       Total fatalities at end of simulation: 124951
 
 
 
@@ -122,5 +122,5 @@ sir_prediction_from_country('US')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-22 16:03:31.521100
+    Run finished 2020-04-22 22:00:11.109468
 

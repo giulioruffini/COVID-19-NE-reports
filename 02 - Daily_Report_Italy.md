@@ -36,8 +36,8 @@ sir_prediction_from_country('Italy')
 ![png](02%20-%20Daily_Report_Italy_files/02%20-%20Daily_Report_Italy_1_2.png)
 
 
-    - Last day with data: 4/21/20
-    - Italy fatalities to date: 24648
+    - Last day with data: 4/22/20
+    - Italy fatalities to date: 25085
      
     
     Model Initial parameters:
@@ -50,19 +50,19 @@ sir_prediction_from_country('Italy')
     day since start simulation: 27  => beta reduction factor: 0.61
     
     Fitting parameters N0 and beta
-    Initial loss: 360724
+    Initial loss: 365822
     Optimization terminated successfully.
-             Current function value: 1366.868520
-             Iterations: 73
-             Function evaluations: 142
+             Current function value: 1379.412442
+             Iterations: 71
+             Function evaluations: 143
     Estimated parameters:
-    N0: 47227
+    N0: 46968
     beta0 (contacts per day): 0.35
     R0: 1.75
     
-    Final loss: 1366
+    Final loss: 1379
     Initial/Final % loss: 0.38
-    Normalized Loss (per million persons, per day) 0.39 
+    Normalized Loss (per million persons, per day) 0.387 
     
     
     _____________________________________________________________________
@@ -72,7 +72,7 @@ sir_prediction_from_country('Italy')
     Model name: optimized 2 pars
     
     Simulated days: 79.0
-    Initially infected/Total population (N0/N): 47227/60480000 (78.1 per 100,000)
+    Initially infected/Total population (N0/N): 46968/60480000 (77.7 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.9 , 1/nu (days): 5.0
     IFR: 0.0016666666666666668
@@ -88,17 +88,17 @@ sir_prediction_from_country('Italy')
     _____________________________________________________________________
     
     MODEL'S OUTPUTS FOR TODAY: 2020-04-22
-       Infected: 1152003 (1.9%)
-       Recovered: 14932584 (24.7%)
-       Exposed to date: 16084587 (26.6%)
-       In ICU: 1440
-       Fatalities: 24887
+       Infected: 1154969 (1.9%)
+       Recovered: 14946272 (24.7%)
+       Exposed to date: 16101241 (26.6%)
+       In ICU: 1443
+       Fatalities: 24910
      
     MEDIUM TERM FORECAST (79 days from model start date): 
        Percent of population exposed at end simulation: 30%
-       Peak ICU admissions:  2823  on day 2020-03-26
+       Peak ICU admissions:  2825  on day 2020-03-26
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 30069
+       Total fatalities at end of simulation: 30106
 
 
 
@@ -124,7 +124,7 @@ sir_prediction_from_country('Italy')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-22 16:03:10.131387
+    Run finished 2020-04-22 21:59:49.004507
 
 
 
