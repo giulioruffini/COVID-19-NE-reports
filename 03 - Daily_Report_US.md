@@ -18,14 +18,14 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('US')
 ```
 
-    Today's date: 2020-04-24 
+    Today's date: 2020-04-26 
     
     Country:  US
     - UCI database:  https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19
     - Total UCI beds:  96596
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 2 / 2020
-    - Days since first fatalities:  53
+    - Days since first fatalities:  55
 
 
 
@@ -36,8 +36,8 @@ sir_prediction_from_country('US')
 ![png](03%20-%20Daily_Report_US_files/03%20-%20Daily_Report_US_1_2.png)
 
 
-    - Last day with data: 4/23/20
-    - US fatalities to date: 49954
+    - Last day with data: 4/25/20
+    - US fatalities to date: 53755
      
     
     Model Initial parameters:
@@ -49,19 +49,19 @@ sir_prediction_from_country('US')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 1979316
+    Initial loss: 2062366
     Optimization terminated successfully.
-             Current function value: 8203.841355
-             Iterations: 131
-             Function evaluations: 243
+             Current function value: 9208.328711
+             Iterations: 114
+             Function evaluations: 217
     Estimated parameters:
-    N0: 4724
-    beta0 (contacts per day): 0.44
-    R0: 2.2
+    N0: 5670
+    beta0 (contacts per day): 0.43
+    R0: 2.17
     
-    Final loss: 8203
-    Initial/Final % loss: 0.41
-    Normalized Loss (per million persons, per day) 0.473 
+    Final loss: 9208
+    Initial/Final % loss: 0.45
+    Normalized Loss (per million persons, per day) 0.512 
     
     
     _____________________________________________________________________
@@ -70,33 +70,33 @@ sir_prediction_from_country('US')
     
     Model name: optimized 2 pars
     
-    Simulated days: 83.0
-    Initially infected/Total population (N0/N): 4724/327200000 (1.4 per 100,000)
+    Simulated days: 85.0
+    Initially infected/Total population (N0/N): 5670/327200000 (1.7 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.3 , 1/nu (days): 5.0
     IFR: 0.002
-    Initial Doubling time: 2.9  days, Initial R0: 2.2
+    Initial Doubling time: 3.0  days, Initial R0: 2.2
     Interventions:
-      1/beta at day 12.0  = 3.5  days, R0 = 1.43
-      1/beta at day 37.0  = 4.8  days, R0 = 1.05
+      1/beta at day 12.0  = 3.5  days, R0 = 1.41
+      1/beta at day 37.0  = 4.8  days, R0 = 1.04
     Latency for intervention effect on fatalities (days): 11
     Infected_to_Detected_ratio: 5
     
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-04-24
-       Infected: 7680210 (2.3%)
-       Recovered: 27589963 (8.4%)
-       Exposed to date: 35270173 (10.8%)
-       In ICU: 19200
-       Fatalities: 55179
+    MODEL'S OUTPUTS FOR TODAY: 2020-04-26
+       Infected: 6997490 (2.1%)
+       Recovered: 29647265 (9.1%)
+       Exposed to date: 36644755 (11.2%)
+       In ICU: 17493
+       Fatalities: 59294
      
-    MEDIUM TERM FORECAST (83 days from model start date): 
-       Percent of population exposed at end simulation: 20%
-       Peak ICU admissions:  20173  on day 2020-04-19
+    MEDIUM TERM FORECAST (85 days from model start date): 
+       Percent of population exposed at end simulation: 19%
+       Peak ICU admissions:  19125  on day 2020-04-19
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 124611
+       Total fatalities at end of simulation: 120515
 
 
 
@@ -122,5 +122,5 @@ sir_prediction_from_country('US')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-24 22:00:41.032705
+    Run finished 2020-04-26 22:00:28.868486
 
