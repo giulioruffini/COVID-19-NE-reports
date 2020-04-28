@@ -20,12 +20,12 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('Italy')
 ```
 
-    Today's date: 2020-04-27 
+    Today's date: 2020-04-28 
     
     Country:  Italy
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  2 / 24 / 2020
-    - Days since first fatalities:  63
+    - Days since first fatalities:  64
 
 
 
@@ -36,8 +36,8 @@ sir_prediction_from_country('Italy')
 ![png](02%20-%20Daily_Report_Italy_files/02%20-%20Daily_Report_Italy_1_2.png)
 
 
-    - Last day with data: 4/26/20
-    - Italy fatalities to date: 26644
+    - Last day with data: 4/27/20
+    - Italy fatalities to date: 26977
      
     
     Model Initial parameters:
@@ -50,19 +50,19 @@ sir_prediction_from_country('Italy')
     day since start simulation: 27  => beta reduction factor: 0.61
     
     Fitting parameters N0 and beta
-    Initial loss: 384942
+    Initial loss: 389458
     Optimization terminated successfully.
-             Current function value: 1475.023673
-             Iterations: 75
-             Function evaluations: 146
+             Current function value: 1488.092904
+             Iterations: 81
+             Function evaluations: 161
     Estimated parameters:
-    N0: 45680
+    N0: 45462
     beta0 (contacts per day): 0.35
     R0: 1.76
     
-    Final loss: 1475
+    Final loss: 1488
     Initial/Final % loss: 0.38
-    Normalized Loss (per million persons, per day) 0.387 
+    Normalized Loss (per million persons, per day) 0.384 
     
     
     _____________________________________________________________________
@@ -71,15 +71,15 @@ sir_prediction_from_country('Italy')
     
     Model name: optimized 2 pars
     
-    Simulated days: 84.0
-    Initially infected/Total population (N0/N): 45680/60480000 (75.5 per 100,000)
+    Simulated days: 85.0
+    Initially infected/Total population (N0/N): 45462/60480000 (75.2 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.8 , 1/nu (days): 5.0
     IFR: 0.0016666666666666668
     Initial Doubling time: 4.6  days, Initial R0: 1.8
     Interventions:
-      1/beta at day 13.0  = 4.4  days, R0 = 1.14
-      1/beta at day 16.0  = 4.4  days, R0 = 1.14
+      1/beta at day 13.0  = 4.4  days, R0 = 1.15
+      1/beta at day 16.0  = 4.4  days, R0 = 1.15
       1/beta at day 27.0  = 4.6  days, R0 = 1.08
     Latency for intervention effect on fatalities (days): 14
     Infected_to_Detected_ratio: 6
@@ -87,18 +87,18 @@ sir_prediction_from_country('Italy')
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-04-27
-       Infected: 940344 (1.6%)
-       Recovered: 16061835 (26.6%)
-       Exposed to date: 17002179 (28.1%)
-       In ICU: 1175
-       Fatalities: 26769
+    MODEL'S OUTPUTS FOR TODAY: 2020-04-28
+       Infected: 900734 (1.5%)
+       Recovered: 16258399 (26.9%)
+       Exposed to date: 17159133 (28.4%)
+       In ICU: 1125
+       Fatalities: 27097
      
-    MEDIUM TERM FORECAST (84 days from model start date): 
+    MEDIUM TERM FORECAST (85 days from model start date): 
        Percent of population exposed at end simulation: 31%
-       Peak ICU admissions:  2834  on day 2020-03-26
+       Peak ICU admissions:  2836  on day 2020-03-26
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 30923
+       Total fatalities at end of simulation: 31063
 
 
 
@@ -124,7 +124,7 @@ sir_prediction_from_country('Italy')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-04-27 21:59:56.264640
+    Run finished 2020-04-28 14:42:36.196027
 
 
 
