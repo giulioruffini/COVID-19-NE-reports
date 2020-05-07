@@ -20,14 +20,14 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('Spain')
 ```
 
-    Today's date: 2020-05-05 
+    Today's date: 2020-05-06 
     
     Country:  Spain
     - UCI database:  https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_camas_uci_2017.csv
     - Total UCI beds:  4404
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 7 / 2020
-    - Days since first fatalities:  59
+    - Days since first fatalities:  60
 
 
 
@@ -73,7 +73,7 @@ sir_prediction_from_country('Spain')
     
     Model name: optimized 2 pars
     
-    Simulated days: 119.0
+    Simulated days: 120.0
     Initially infected/Total population (N0/N): 50368/46660000 (107.9 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.5 , 1/nu (days): 5.0
@@ -89,18 +89,18 @@ sir_prediction_from_country('Spain')
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-05-05
-       Infected: 408473 (0.9%)
-       Recovered: 12621249 (27.0%)
-       Exposed to date: 13029722 (27.9%)
-       In ICU: 1143
-       Fatalities: 25242
+    MODEL'S OUTPUTS FOR TODAY: 2020-05-06
+       Infected: 383884 (0.8%)
+       Recovered: 12700461 (27.2%)
+       Exposed to date: 13084345 (28.0%)
+       In ICU: 1074
+       Fatalities: 25400
      
-    MEDIUM TERM FORECAST (119 days from model start date): 
+    MEDIUM TERM FORECAST (120 days from model start date): 
        Percent of population exposed at end simulation: 29%
        Peak ICU admissions:  6352  on day 2020-03-27
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 27752
+       Total fatalities at end of simulation: 27756
 
 
 
@@ -126,5 +126,5 @@ sir_prediction_from_country('Spain')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-05-05 23:51:15.929131
+    Run finished 2020-05-06 21:59:49.254291
 

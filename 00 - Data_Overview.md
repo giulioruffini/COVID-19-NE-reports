@@ -24,7 +24,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 7 / 2020
-    - Days since first fatalities:  59
+    - Days since first fatalities:  60
 
 
 
@@ -59,7 +59,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  2 / 24 / 2020
-    - Days since first fatalities:  71
+    - Days since first fatalities:  72
 
 
 
@@ -94,7 +94,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 20 / 2020
-    - Days since first fatalities:  46
+    - Days since first fatalities:  47
 
 
 
@@ -129,7 +129,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 5 / 2020
-    - Days since first fatalities:  61
+    - Days since first fatalities:  62
 
 
 
@@ -164,7 +164,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 2 / 2020
-    - Days since first fatalities:  64
+    - Days since first fatalities:  65
 
 
 
