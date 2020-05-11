@@ -18,14 +18,14 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('US')
 ```
 
-    Today's date: 2020-05-09 
+    Today's date: 2020-05-10 
     
     Country:  US
     - UCI database:  https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19
     - Total UCI beds:  96596
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 2 / 2020
-    - Days since first fatalities:  68
+    - Days since first fatalities:  69
 
 
 
@@ -36,8 +36,8 @@ sir_prediction_from_country('US')
 ![png](03%20-%20Daily_Report_US_files/03%20-%20Daily_Report_US_1_2.png)
 
 
-    - Last day with data: 5/8/20
-    - US fatalities to date: 77180
+    - Last day with data: 5/9/20
+    - US fatalities to date: 78795
      
     
     Model Initial parameters:
@@ -49,19 +49,19 @@ sir_prediction_from_country('US')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 2511273
+    Initial loss: 2541581
     Optimization terminated successfully.
-             Current function value: 11766.882017
-             Iterations: 110
-             Function evaluations: 212
+             Current function value: 11789.996087
+             Iterations: 117
+             Function evaluations: 225
     Estimated parameters:
-    N0: 16906
+    N0: 16776
     beta0 (contacts per day): 0.4
     R0: 2.01
     
-    Final loss: 11766
-    Initial/Final % loss: 0.47
-    Normalized Loss (per million persons, per day) 0.529 
+    Final loss: 11789
+    Initial/Final % loss: 0.46
+    Normalized Loss (per million persons, per day) 0.522 
     
     
     _____________________________________________________________________
@@ -70,8 +70,8 @@ sir_prediction_from_country('US')
     
     Model name: optimized 2 pars
     
-    Simulated days: 98.0
-    Initially infected/Total population (N0/N): 16906/327200000 (5.2 per 100,000)
+    Simulated days: 99.0
+    Initially infected/Total population (N0/N): 16776/327200000 (5.1 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.5 , 1/nu (days): 5.0
     IFR: 0.002
@@ -85,18 +85,18 @@ sir_prediction_from_country('US')
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-05-09
-       Infected: 3496688 (1.1%)
-       Recovered: 38999825 (11.9%)
-       Exposed to date: 42496513 (13.0%)
-       In ICU: 8741
-       Fatalities: 77999
+    MODEL'S OUTPUTS FOR TODAY: 2020-05-10
+       Infected: 3394200 (1.0%)
+       Recovered: 39739712 (12.1%)
+       Exposed to date: 43133912 (13.2%)
+       In ICU: 8485
+       Fatalities: 79479
      
-    MEDIUM TERM FORECAST (98 days from model start date): 
+    MEDIUM TERM FORECAST (99 days from model start date): 
        Percent of population exposed at end simulation: 16%
-       Peak ICU admissions:  15526  on day 2020-04-19
+       Peak ICU admissions:  15554  on day 2020-04-19
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 103799
+       Total fatalities at end of simulation: 104462
 
 
 
@@ -122,5 +122,5 @@ sir_prediction_from_country('US')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-05-09 22:00:48.187844
+    Run finished 2020-05-10 20:37:39.584725
 
