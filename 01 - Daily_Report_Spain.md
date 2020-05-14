@@ -20,14 +20,14 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('Spain')
 ```
 
-    Today's date: 2020-05-12 
+    Today's date: 2020-05-13 
     
     Country:  Spain
     - UCI database:  https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_camas_uci_2017.csv
     - Total UCI beds:  4404
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 7 / 2020
-    - Days since first fatalities:  66
+    - Days since first fatalities:  67
 
 
 
@@ -38,8 +38,8 @@ sir_prediction_from_country('Spain')
 ![png](01%20-%20Daily_Report_Spain_files/01%20-%20Daily_Report_Spain_2_2.png)
 
 
-    - Last day with data: 5/11/20
-    - Spain fatalities to date: 26744
+    - Last day with data: 5/12/20
+    - Spain fatalities to date: 26920
      
     
     Model Initial parameters:
@@ -52,19 +52,19 @@ sir_prediction_from_country('Spain')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 135654
+    Initial loss: 137386
     Optimization terminated successfully.
-             Current function value: 1934.200454
-             Iterations: 75
-             Function evaluations: 143
+             Current function value: 1997.403585
+             Iterations: 65
+             Function evaluations: 127
     Estimated parameters:
-    N0: 47425
+    N0: 46989
     beta0 (contacts per day): 0.4
     R0: 2.02
     
-    Final loss: 1934
-    Initial/Final % loss: 1.43
-    Normalized Loss (per million persons, per day) 0.628 
+    Final loss: 1997
+    Initial/Final % loss: 1.45
+    Normalized Loss (per million persons, per day) 0.639 
     
     
     _____________________________________________________________________
@@ -73,34 +73,34 @@ sir_prediction_from_country('Spain')
     
     Model name: optimized 2 pars
     
-    Simulated days: 126.0
-    Initially infected/Total population (N0/N): 47425/46660000 (101.6 per 100,000)
+    Simulated days: 127.0
+    Initially infected/Total population (N0/N): 46989/46660000 (100.7 per 100,000)
     beta (per day): 0.4 , nu (per day): 0.2
     1/beta (days): 2.5 , 1/nu (days): 5.0
     IFR: 0.002
     Initial Doubling time: 3.4  days, Initial R0: 2.0
     Interventions:
-      1/beta at day 7.0  = 4.8  days, R0 = 1.05
-      1/beta at day 24.0  = 5.2  days, R0 = 0.96
-      1/beta at day 37.0  = 5.2  days, R0 = 0.96
+      1/beta at day 7.0  = 4.7  days, R0 = 1.05
+      1/beta at day 24.0  = 5.2  days, R0 = 0.97
+      1/beta at day 37.0  = 5.2  days, R0 = 0.97
     Latency for intervention effect on fatalities (days): 13
     Infected_to_Detected_ratio: 5
     
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-05-12
-       Infected: 272811 (0.6%)
-       Recovered: 13202159 (28.3%)
-       Exposed to date: 13474970 (28.9%)
-       In ICU: 763
-       Fatalities: 26404
+    MODEL'S OUTPUTS FOR TODAY: 2020-05-13
+       Infected: 257544 (0.6%)
+       Recovered: 13272236 (28.4%)
+       Exposed to date: 13529780 (29.0%)
+       In ICU: 721
+       Fatalities: 26544
      
-    MEDIUM TERM FORECAST (126 days from model start date): 
+    MEDIUM TERM FORECAST (127 days from model start date): 
        Percent of population exposed at end simulation: 30%
-       Peak ICU admissions:  6336  on day 2020-03-27
+       Peak ICU admissions:  6333  on day 2020-03-27
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 28072
+       Total fatalities at end of simulation: 28119
 
 
 
@@ -126,5 +126,5 @@ sir_prediction_from_country('Spain')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-05-12 21:59:44.788471
+    Run finished 2020-05-13 21:59:43.025627
 
