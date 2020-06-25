@@ -20,14 +20,14 @@ from ne_epidemic.utilities import sir_prediction_from_country
 sir_prediction_from_country('Spain')
 ```
 
-    Today's date: 2020-06-14 
+    Today's date: 2020-06-24 
     
     Country:  Spain
     - UCI database:  https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_camas_uci_2017.csv
     - Total UCI beds:  4404
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 7 / 2020
-    - Days since first fatalities:  99
+    - Days since first fatalities:  109
 
 
 
@@ -38,8 +38,8 @@ sir_prediction_from_country('Spain')
 ![png](01%20-%20Daily_Report_Spain_files/01%20-%20Daily_Report_Spain_2_2.png)
 
 
-    - Last day with data: 6/13/20
-    - Spain fatalities to date: 27136
+    - Last day with data: 6/23/20
+    - Spain fatalities to date: 28325
      
     
     Model Initial parameters:
@@ -52,19 +52,19 @@ sir_prediction_from_country('Spain')
     day since start simulation: 37  => beta reduction factor: 0.48
     
     Fitting parameters N0 and beta
-    Initial loss: 1746703
+    Initial loss: 1879011
     Optimization terminated successfully.
-             Current function value: 7164.569198
+             Current function value: 7728.067056
              Iterations: 79
-             Function evaluations: 157
+             Function evaluations: 156
     Estimated parameters:
-    N0: 27828
+    N0: 28905
     beta0 (contacts per day): 0.34
-    R0: 1.7
+    R0: 1.69
     
-    Final loss: 7164
+    Final loss: 7728
     Initial/Final % loss: 0.41
-    Normalized Loss (per million persons, per day) 1.551 
+    Normalized Loss (per million persons, per day) 1.519 
     
     
     _____________________________________________________________________
@@ -73,14 +73,14 @@ sir_prediction_from_country('Spain')
     
     Model name: optimized 2 pars
     
-    Simulated days: 159.0
-    Initially infected/Total population (N0/N): 27828/46660000 (59.6 per 100,000)
+    Simulated days: 169.0
+    Initially infected/Total population (N0/N): 28905/46660000 (61.9 per 100,000)
     beta (per day): 0.3 , nu (per day): 0.2
-    1/beta (days): 2.9 , 1/nu (days): 5.0
+    1/beta (days): 3.0 , 1/nu (days): 5.0
     IFR: 0.01
     Initial Doubling time: 5.0  days, Initial R0: 1.7
     Interventions:
-      1/beta at day 7.0  = 5.6  days, R0 = 0.89
+      1/beta at day 7.0  = 5.7  days, R0 = 0.88
       1/beta at day 24.0  = 6.2  days, R0 = 0.81
       1/beta at day 37.0  = 6.2  days, R0 = 0.81
     Latency for intervention effect on fatalities (days): 13
@@ -89,18 +89,18 @@ sir_prediction_from_country('Spain')
     
     _____________________________________________________________________
     
-    MODEL'S OUTPUTS FOR TODAY: 2020-06-14
-       Infected: 14483 (0.0%)
-       Recovered: 2848147 (6.1%)
-       Exposed to date: 2862630 (6.1%)
-       In ICU: 202
-       Fatalities: 28481
+    MODEL'S OUTPUTS FOR TODAY: 2020-06-24
+       Infected: 8441 (0.0%)
+       Recovered: 2847721 (6.1%)
+       Exposed to date: 2856162 (6.1%)
+       In ICU: 118
+       Fatalities: 28477
      
-    MEDIUM TERM FORECAST (159 days from model start date): 
+    MEDIUM TERM FORECAST (169 days from model start date): 
        Percent of population exposed at end simulation: 6%
-       Peak ICU admissions:  6058  on day 2020-03-27
+       Peak ICU admissions:  6079  on day 2020-03-27
        (note model does not account for long ICU stays)
-       Total fatalities at end of simulation: 29053
+       Total fatalities at end of simulation: 28806
 
 
 
@@ -126,5 +126,5 @@ sir_prediction_from_country('Spain')
           The derivative of the quadratic is used to estimate doubling time and R(t).
     Rt estimated from doubling time using nu= 0.2
     
-    Run finished 2020-06-14 21:59:51.799921
+    Run finished 2020-06-24 21:59:55.031976
 
