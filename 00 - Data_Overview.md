@@ -24,7 +24,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 7 / 2020
-    - Days since first fatalities:  143
+    - Days since first fatalities:  147
 
 
 
@@ -35,8 +35,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_3_2.png)
 
 
-    - Last day with data: 7/27/20
-    - Spain fatalities to date: 28432
+    - Last day with data: 7/31/20
+    - Spain fatalities to date: 28445
      
 
 
@@ -59,7 +59,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  2 / 24 / 2020
-    - Days since first fatalities:  155
+    - Days since first fatalities:  159
 
 
 
@@ -70,8 +70,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_5_2.png)
 
 
-    - Last day with data: 7/27/20
-    - Italy fatalities to date: 35112
+    - Last day with data: 7/31/20
+    - Italy fatalities to date: 35141
      
 
 
@@ -94,7 +94,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 20 / 2020
-    - Days since first fatalities:  130
+    - Days since first fatalities:  134
 
 
 
@@ -105,8 +105,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_7_2.png)
 
 
-    - Last day with data: 7/27/20
-    - Portugal fatalities to date: 1719
+    - Last day with data: 7/31/20
+    - Portugal fatalities to date: 1735
      
 
 
@@ -129,7 +129,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 5 / 2020
-    - Days since first fatalities:  145
+    - Days since first fatalities:  149
 
 
 
@@ -140,8 +140,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_9_2.png)
 
 
-    - Last day with data: 7/27/20
-    - France fatalities to date: 30096
+    - Last day with data: 7/31/20
+    - France fatalities to date: 30150
      
 
 
@@ -164,7 +164,7 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 
     - Fatalities database:  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
     - First day with more than 5 casualties (m/d/y):  3 / 2 / 2020
-    - Days since first fatalities:  148
+    - Days since first fatalities:  152
 
 
 
@@ -175,8 +175,8 @@ _ = get_doubling_time(df, nu=1/5, ndays=7)
 ![png](00%20-%20Data_Overview_files/00%20-%20Data_Overview_11_2.png)
 
 
-    - Last day with data: 7/27/20
-    - US fatalities to date: 148011
+    - Last day with data: 7/31/20
+    - US fatalities to date: 153314
      
 
 
